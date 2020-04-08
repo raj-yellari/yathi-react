@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import Leftrail from "./leftrailComponent";
-import homeContent from "../staticData/landingPage/home.json";
-const homeContentList = homeContent.homepage;
 class BodyRender extends Component {
   state = {};
   render() {
@@ -13,9 +11,7 @@ class BodyRender extends Component {
           </div>
           <div>
             <ul>
-              {homeContentList.map(s => (
-                <li>{s.text}</li>
-              ))}
+              <li>Testing page</li>
             </ul>
           </div>
         </div>
